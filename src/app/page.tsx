@@ -5,10 +5,9 @@ import { DiscountBanner } from "@/components/DiscountBanner"
 import Products from "@/components/FeaturedProducts"
 import HeroSlider from "@/components/HeroSlider"
 import { MeatSection } from "@/components/meatSection"
-
-import { Newsletter } from "@/components/newsletter"
 import { PromoBanners } from "@/components/PromoBanners"
 import ProductDeals from "@/components/recipes"
+import LoginModal from "./login/loginModal"
 
 export default function Home() {
   return (
@@ -22,6 +21,7 @@ export default function Home() {
       <BeveragesGrid />
       <PromoBanners />
       <MeatSection />
+      <LoginModal />
       {/* <CocaColaBanner /> */}
       <BlogSection blogs={[
         {
