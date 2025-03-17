@@ -1,4 +1,3 @@
-
 import BeveragesGrid from "@/components/beverages"
 import { BlogSection } from "@/components/BlogSection"
 import WeekendDiscountCategories from "@/components/categories"

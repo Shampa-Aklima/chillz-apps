@@ -60,6 +60,10 @@ export default function Navbar() {
         <div className="container mx-auto px-4 flex items-center justify-between">
           {/* Left links - hidden on mobile */}
           <div className="hidden sm:flex items-center space-x-4">
+          <Link href="/shop" className="hover:text-gray-300">
+              Shop
+            </Link>
+           
             <Link href="/track" className="hover:text-gray-300">
               Track Order
             </Link>
