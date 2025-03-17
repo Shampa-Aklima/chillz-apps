@@ -64,17 +64,21 @@ export default function Navbar() {
               Shop
             </Link>
            
-            <Link href="/track" className="hover:text-gray-300">
-              Track Order
+            <Link href="/frozen-foods" className="hover:text-gray-300">
+            Frozen Foods
             </Link>
-            <Link href="/about" className="hover:text-gray-300">
-              About Us
+            <Link href="/beverages" className="hover:text-gray-300">
+            Beverages
             </Link>
-            <Link href="/contact" className="hover:text-gray-300">
-              Contact
+            <Link href="/bakery" className="hover:text-gray-300">
+            Bakery
             </Link>
-            <Link href="/faq" className="hover:text-gray-300">
-              FAQ
+            <Link href="/blog" className="hover:text-gray-300">
+            Blog
+            </Link>
+            
+            <Link href="/best-discounts" className="hover:text-gray-300">
+            Best Discounts
             </Link>
           </div>
 

@@ -3,6 +3,7 @@ import { Inter, Dosis } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { Newsletter } from "@/components/newsletter";
 
 
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={inter.className}>
       <Navbar />
         {children}
+        <Newsletter />
     <Footer />
       </body>
     </html>

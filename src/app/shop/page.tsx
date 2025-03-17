@@ -96,7 +96,54 @@ const products = [
     serves: 2,
     difficulty: "Easy",
   },
-  
+  {
+    id: "m1",
+    title: "Fresh Choice Angus Beef Stew Meat",
+    price: "$12.99",
+    salePrice: "$9.99",
+    image: "/meat1.png",
+    rating: 4.5,
+    reviewCount: 22,
+    badge: "SALE",
+    category: "Meat",
+    slug: "angus-beef-stew",
+  },
+  {
+    id: "m2",
+    title: "Seasoned Skirt Steak Beef Fajitas",
+    price: "$15.99",
+    salePrice: "$12.99",
+    image: "/meat2.png",
+    rating: 4.8,
+    reviewCount: 34,
+    badge: "SALE",
+    category: "Meat",
+    slug: "skirt-steak-fajitas",
+  },
+  {
+    id: "c1",
+    title: "Breads & Bakery",
+    slug: "breads-bakery",
+    image: "/bakery1.png",
+    price: "$19.99",
+    rating: 5
+  },
+  {
+    id: "c2",
+    title: "Organic Beverages",
+    slug: "organic-beverages",
+    image: "/bakery2.png",
+    price: "$12.99",
+    rating: 5
+  },
+  {
+    id: "c3",
+    title: "Frozen Foods",
+    slug: "frozen-foods",
+    image: "/bakery3.png",
+    price: "$19.99",
+    rating: 5
+  },
 
 
 
