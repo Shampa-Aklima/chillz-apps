@@ -1,10 +1,12 @@
 import BeveragesGrid from "@/components/beverages"
 import { BlogSection } from "@/components/BlogSection"
 import WeekendDiscountCategories from "@/components/categories"
+import { CocaColaBanner } from "@/components/cocaColaBanner"
 import { DiscountBanner } from "@/components/DiscountBanner"
 import Products from "@/components/FeaturedProducts"
 import HeroSlider from "@/components/HeroSlider"
 import { MeatSection } from "@/components/meatSection"
+import PromoBanner from "@/components/promoBanner"
 import { PromoBanners } from "@/components/PromoBanners"
 import ProductDeals from "@/components/recipes"
 
@@ -19,8 +21,11 @@ export default function Home() {
       <WeekendDiscountCategories />
       <BeveragesGrid />
       <PromoBanners />
+      
+
       <MeatSection />
-      {/* <CocaColaBanner /> */}
+      <CocaColaBanner/>     
+
       <BlogSection blogs={[
         {
           id: "1",

@@ -8,7 +8,7 @@ export function PromoBanners() {
     <section className="py-6">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 gap-6">
-          <div className="bg-[#e6e8eb] rounded-md p-6 flex items-center">
+          <div className=" rounded-md p-6 flex items-center">
             <div className="w-1/2">
               <h3 className="text-xl font-bold mb-2">All you need under one roof</h3>
               <p className="text-sm text-gray-600 mb-4">Shop groceries, drinks and more...</p>
@@ -18,7 +18,7 @@ export function PromoBanners() {
             </div>
             <div className="w-1/2 flex justify-end">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/banner4.jpeg"
                 alt="Promo banner"
                 width={200}
                 height={150}
@@ -27,7 +27,7 @@ export function PromoBanners() {
             </div>
           </div>
 
-          <div className="bg-[#e6e8eb] rounded-md p-6 flex items-center">
+          <div className=" rounded-md p-6 flex items-center">
             <div className="w-1/2">
               <h3 className="text-xl font-bold mb-2">We have it, so you dont have to.</h3>
               <p className="text-sm text-gray-600 mb-4">Fresh drinks delivered to your door</p>
@@ -37,7 +37,7 @@ export function PromoBanners() {
             </div>
             <div className="w-1/2 flex justify-end">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/banner5.jpeg"
                 alt="Promo banner"
                 width={200}
                 height={150}
