@@ -6,7 +6,6 @@ import { DiscountBanner } from "@/components/DiscountBanner"
 import Products from "@/components/FeaturedProducts"
 import HeroSlider from "@/components/HeroSlider"
 import { MeatSection } from "@/components/meatSection"
-import PromoBanner from "@/components/promoBanner"
 import { PromoBanners } from "@/components/PromoBanners"
 import ProductDeals from "@/components/recipes"
 
