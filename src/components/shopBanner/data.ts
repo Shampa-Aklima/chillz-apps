@@ -1,4 +1,4 @@
-export interface CocaColaBannerProps {
+export interface ShopBannerProps {
   id: string
   heading: string
   description: string
@@ -15,21 +15,20 @@ export interface CocaColaBannerProps {
   }
 }
 
-export const defaultBannerData: CocaColaBannerProps = {
+export const defaultBannerData: ShopBannerProps = {
   id: "1",
-  heading: "There's always something good here.",
-  description: "Refreshing drinks for all occasions",
+  heading: "Bringing Nature's Bounty to You",
+  description: "We have prepared special discounts for you on grocery products",
   price: {
     label: "From",
     value: "$ 249.99",
   },
   backgroundImage: {
-    src: "/banner6.jpeg",
-    alt: "Coca Cola bottle",
+    src: "/shopImg.png",
+    alt: "Shop banner",
     width: 300,
     height: 200,
     className: "object-cover",
-  },
-  
+  }
 }
 

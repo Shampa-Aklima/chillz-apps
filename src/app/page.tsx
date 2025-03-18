@@ -21,7 +21,7 @@ export default function Home() {
       <WeekendDiscountCategories />
       <BeveragesGrid />
       <PromoBanners />
-       <MeatSection />
+      <MeatSection />
       <CocaColaBanner/>     
 
       <BlogSection blogs={[
@@ -45,18 +45,11 @@ export default function Home() {
           id: "3",
           title: "Spring Recipes",
           excerpt: "Fresh and delicious spring recipes...",
-          image: "/blog2.jpeg",
-          category: "Recipes",
-          date: "2024-03-19"
-        },
-        {
-          id: "4",
-          title: "Spring Recipes",
-          excerpt: "Fresh and delicious spring recipes...",
-          image: "/blog2.jpeg",
+          image: "/blog3.jpeg",
           category: "Recipes",
           date: "2024-03-19"
         }
+        
       ]} />
       
       

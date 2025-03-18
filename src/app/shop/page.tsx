@@ -1,9 +1,8 @@
 import ShopSidebar from "./ShopSidber";
 import { ProductCard } from "@/components/ProductCard";
-
+import { ShopBanner } from "@/components/shopBanner";
 
 const products = [
-  
   {
     id: "b1",
     title: "Jim Beam & Coca-Cola Ready To Drink Bottle 330ml",
@@ -62,7 +61,7 @@ const products = [
     category: "Beverages",
     slug: "schweppes-tonic",
   },
-  
+
   {
     id: "b6",
     title: "Evian Natural Spring Water 500ml",
@@ -126,7 +125,7 @@ const products = [
     slug: "breads-bakery",
     image: "/bakery1.png",
     price: "$19.99",
-    rating: 5
+    rating: 5,
   },
   {
     id: "c2",
@@ -134,7 +133,7 @@ const products = [
     slug: "organic-beverages",
     image: "/bakery2.png",
     price: "$12.99",
-    rating: 5
+    rating: 5,
   },
   {
     id: "c3",
@@ -142,20 +141,14 @@ const products = [
     slug: "frozen-foods",
     image: "/bakery3.png",
     price: "$19.99",
-    rating: 5
+    rating: 5,
   },
-
-
-
-
-
-]
-  
-
+];
 
 const page = () => {
   return (
     <div className="container mx-auto max-w-[1200px] mt-10 ">
+      <ShopBanner />
       <div className="flex">
         <ShopSidebar />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -172,21 +165,27 @@ const page = () => {
           ))}
         </div>
       </div>
-       
-        <div className="flex justify-center mt-8">
-              <div className="flex items-center space-x-1">
-                <button className="w-8 h-8 flex items-center justify-center bg-teal-500 text-white rounded-full">
-                  1
-                </button>
-                <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">2</button>
-                <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">3</button>
-                <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">...</button>
-                <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">6</button>
-              </div>
-            </div>
-          </div>
-        
-    
+
+      <div className="flex justify-center mt-8">
+        <div className="flex items-center space-x-1">
+          <button className="w-8 h-8 flex items-center justify-center bg-teal-500 text-white rounded-full">
+            1
+          </button>
+          <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">
+            2
+          </button>
+          <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">
+            3
+          </button>
+          <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">
+            ...
+          </button>
+          <button className="w-8 h-8 flex items-center justify-center bg-white border rounded-full">
+            6
+          </button>
+        </div>
+      </div>
+    </div>
   );
 };
 
