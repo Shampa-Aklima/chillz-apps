@@ -21,9 +21,7 @@ export default function Home() {
       <WeekendDiscountCategories />
       <BeveragesGrid />
       <PromoBanners />
-      
-
-      <MeatSection />
+       <MeatSection />
       <CocaColaBanner/>     
 
       <BlogSection blogs={[
