@@ -23,7 +23,6 @@ export default function Home() {
       <PromoBanners />
       <MeatSection />
       <CocaColaBanner/>     
-
       <BlogSection blogs={[
         {
           id: "1",

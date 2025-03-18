@@ -11,7 +11,7 @@ export function ShopBanner(props: Partial<ShopBannerProps> = {}) {
           style={{ backgroundImage: `url(${bannerData.backgroundImage.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/50"></div>
 
           {/* Content */}
           <div className="relative z-10 max-w-md">
