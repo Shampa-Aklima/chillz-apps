@@ -57,11 +57,11 @@ export default function ProductPage() {
               {[1, 2, 3].map((i) => (
                 <div
                   key={i}
-                  className="border border-gray-200 w-16 h-16 cursor-pointer hover:border-primary"
+                  className="border border-white w-16 h-16 cursor-pointer hover:border-primary"
                 >
                   <Image
-                    src={`/dog1.jpeg`}
-                    alt={`/dog1.jpeg ${i}`}
+                    src={`/dog2.jpeg`}
+                    alt={`dog2.jpeg ${i}`}
                     width={64}
                     height={64}
                     className="object-contain w-full h-full"
