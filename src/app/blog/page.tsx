@@ -1,4 +1,5 @@
 import { X, MessageSquare, Share2 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function BlogPage() {
@@ -9,9 +10,12 @@ export default function BlogPage() {
         <div className="md:col-span-2">
           {/* Featured Article */}
           <article className="mb-12">
-            <div className="bg-gray-200 aspect-video w-full mb-4"></div>
+
+            <div className=" w-full mb-4">
+            <Image src="/blog2.jpeg" alt="blog1" width={800} height={100} />
+            </div>
             <div className="mb-2 text-xs text-gray-500 uppercase">DESIGN</div>
-            <h1 className="text-2xl font-bold mb-2">But I must explain to you how all this mistaken idea</h1>
+              <h1 className="text-2xl font-bold mb-2">But I must explain to you how all this mistaken idea</h1>
             <div className="text-sm text-gray-500 mb-4">Jan 13 2023 • Brian GRK</div>
             <p className="text-gray-600 mb-4">
               Donec rhoncus quis diam sit amet faucibus. Vivamus pellentesque, sem sed convallis ultricies, ante eros
@@ -21,7 +25,9 @@ export default function BlogPage() {
           </article>
 
             <article className="mb-12">
-            <div className="bg-gray-200 aspect-video w-full mb-4"></div>
+            <div className="bg-gray-200 aspect-video w-full mb-4">
+            <Image src="/blog1.jpeg" alt="blog1" width={800} height={100} />
+            </div>
             <div className="mb-2 text-xs text-gray-500 uppercase">DESIGN</div>
             <h2 className="text-xl font-bold mb-2">The Problem With Typefaces on the Web</h2>
             <div className="text-sm text-gray-500 mb-4">Jan 13 2023 • Brian GRK</div>
