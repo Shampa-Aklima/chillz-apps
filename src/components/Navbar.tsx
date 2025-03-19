@@ -119,7 +119,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center justify-center gap-2">
               
               <Image 
-                src="/logo.svg" 
+                src="/logo.jpg" 
                 alt="Chillz" 
                 className="h-6 sm:h-10 w-auto" 
                 width={120}
@@ -215,7 +215,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/discounts" className="flex items-center text-teal-600">
+                  <Link href="/productDetails" className="flex items-center text-teal-600">
                     <Timer className="h-4 w-4 mr-1" />
                     Best Discounts
                   </Link>
